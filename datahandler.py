@@ -95,7 +95,7 @@ class SegDataset(Dataset):
 class Resize(object):
     """Resize image and/or masks."""
 
-    def __init__(self, imageresize, maskresize):
+    def __init__(self, imageresize=(200, 200), maskresize=(200, 200)):
         self.imageresize = imageresize
         self.maskresize = maskresize
 
