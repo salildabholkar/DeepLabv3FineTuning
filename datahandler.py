@@ -172,7 +172,7 @@ def get_dataloader_sep_folder(data_dir, imageFolder='Image', maskFolder='Mask', 
     return dataloaders
 
 
-def get_dataloader_single_folder(data_dir, imageFolder='PNGImages', maskFolder='PedMasks', fraction=0.2, batch_size=4):
+def get_dataloader_single_folder(data_dir, imageFolder='PNGImages', maskFolder='PedMasks', fraction=0.2, batch_size=1):
     """
         Create training and testing dataloaders from a single folder.
     """
