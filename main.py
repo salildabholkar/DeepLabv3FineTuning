@@ -18,7 +18,7 @@ if __name__ == '__main__':
     parser.add_argument(
         "--data_directory",
         help='Specify the dataset directory path',
-        default="CrackForest"
+        default="PennFudanPed"
     )
     parser.add_argument(
         "--exp_directory",
