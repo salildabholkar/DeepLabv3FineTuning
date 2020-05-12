@@ -101,6 +101,7 @@ class Resize(object):
 
     def __call__(self, sample):
         image, mask = sample['image'], sample['mask']
+        print('shape', image.shape)
         if len(image.shape) == 3:
             image = image.transpose(1, 2, 0)
         if len(mask.shape) == 3:
